@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { FormInput } from "shards-react";
+import "shards-ui/dist/css/shards.min.css"
 
-export default class NavBar extends Component {
-    render() {
-        return (
-            <div>
-           		<input type="text" className="input" placeholder="Search..." />
-    			<ul>
-    			...
-    			</ul>
-                <div className="logo"></div>
-                <div classname="menu-items"></div>
-            </div>
-        )
-    }
+
+export default class Searchbar extends Component {
+	render(){
+		return(
+			<div>
+			  	<FormInput placeholder="Search for a Charity/Organization" />
+		  	</div>
+	    );
+	}
 }
+
+
