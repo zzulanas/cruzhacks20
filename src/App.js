@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './svg/coinz.svg';
 import Searchbar from './components/Searchbar.js';
 import './App.css';
+import "shards-ui/dist/css/shards.min.css"
 
 function App() {
   return (
