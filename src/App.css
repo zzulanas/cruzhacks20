@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: 
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
 }
 
 .App-logo {
@@ -15,14 +16,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(180deg, #FAEBB8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FBF0CA 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(121.77deg, #FBF9F1 4.53%, rgba(251, 249, 241, 0) 100.67%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
