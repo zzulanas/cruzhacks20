@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './svg/coinz.svg';
+import Searchbar from './components/Searchbar.js';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Searchbar/>
       </header>
     </div>
   );
