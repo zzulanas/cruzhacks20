@@ -4,7 +4,7 @@ export default class Charities extends Component {
     render() {
         return (
             <div>
-				<header>
+				<header className="App-header">
                     <p>
                         Edit <code>src/App.js</code> and save to reload.
                     </p>
