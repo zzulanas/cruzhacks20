@@ -4,12 +4,25 @@ import Searchbar from '../components/Searchbar';
 export default class Charities extends Component {
     render() {
         return (
-            <div className = "Charities">
-                    {/* <p>
-                        Partnered Charities and Organizations
-                    </p> */}
-                    <Searchbar/>
-            </div>
+            <div>
+                <div
+                	style={{
+                		position: 'absolute',top:'10%',left:'50%',
+                		transform: 'translate(-50%, -50%)'
+                	}}>
+                  	Partnered Charities and Organizations
+                </div>
+
+                <div
+                	style={{
+                		position: 'absolute',left:'50%',
+                		transform: 'translate(-50%, -50%)'
+                	}}>
+                	<Searchbar/>
+                </div>
+                
+    		</div>
+           	
         )
     }
 }
