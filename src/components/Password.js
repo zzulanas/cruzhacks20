@@ -11,14 +11,16 @@ export default class Password extends Component {
         };
         this.toggleShow = this.toggleShow.bind(this)
     }
-    toggleSize(){
+    toggleShow(){
         this.setState({hidden: !this.state.hidden});
     }
 	render(){
 		return(
 			<div>
-			  	<FormInput placeholder="password" />
-                  <button>Show / Hide</button>
+			  	<input
+                  type={this.state.hidden ? "password" : "text"}
+                />
+                <button onClick={this.toggleShow}> Show / Hide </button>
 		  	</div>
 	    );
 	}
