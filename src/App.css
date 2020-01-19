@@ -48,3 +48,22 @@
 .bottomBorder{
   border-bottom: 5px solid #48C9B0;
 }
+
+@media (min-width: 768px){
+  #left {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    width: 30%;
+    overflow-y: scroll; 
+  }
+  
+  #right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+    width: 70%;
+  }
+}
