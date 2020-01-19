@@ -7,7 +7,7 @@ export default class Searchbar extends Component {
 	render(){
 		return(
 			<div>
-			  	<FormInput placeholder="Search for a Charity/Organization" />
+			  	<FormInput size="lg" placeholder="Search" />
 		  	</div>
 	    );
 	}
