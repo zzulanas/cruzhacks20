@@ -26,7 +26,7 @@ function App() {
             )}/>
         <Route exact={true} path='/account' render={() => (
               <div className="Account">
-                <Header/>
+                <Header account={true}/>
                 <Account />
               </div>
             )}/>
