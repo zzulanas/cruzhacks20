@@ -17,7 +17,8 @@ export default class Home extends Component {
                         <h1> <b>Change4Change</b> </h1>
                         <h2>Be the change you want to see in the world!</h2>
                         <h2>...or you could give a little bit instead</h2>
-                        <Button block variant = "primary" className="homebutton">Learn More!</Button>
+                        <Button block variant = "primary" className="homebutton">Log in</Button>
+                        <Button block variant = "primary" >Sign up</Button>
                         </Col>
                     </Row>
                 </Container>
