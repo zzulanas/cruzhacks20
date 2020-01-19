@@ -7,7 +7,6 @@ import Login from './pages/Login';
 import Header from './components/Header';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
-import "shards-ui/dist/css/shards.min.css"
 
 function App() {
   return (
