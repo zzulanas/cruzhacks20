@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import { FormInput } from "shards-react";
+import { Form } from 'react-bootstrap' 
 
 
 
 export default class Email extends Component {
 	render(){
 		return(
-			<div>
-			  	<FormInput placeholder="user@email.com" />
-		  	</div>
+			<Form>
+  				<Form.Group controlId="formBasicEmail">
+    				<Form.Control type="email" placeholder="Enter email" />
+    				<Form.Text className="text-muted"></Form.Text>
+  				</Form.Group>
+			</Form>
 	    );
 	}
 }

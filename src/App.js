@@ -35,11 +35,6 @@ function App() {
                 <Login />
               </div>
             )}/>
-          <Route exact={true} path='/login' render={() => (
-              <div className="Login">
-                <Login />
-              </div>
-            )}/>
       </div>
     </BrowserRouter>
   );

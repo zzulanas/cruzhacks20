@@ -18,6 +18,7 @@ export default class Plaid extends Component {
         publicKey="489aba9a49ef531ca8b95182f6290f"
         onExit={this.handleOnExit}
         onSuccess={this.handleOnSuccess}>
+        
         Open Link and connect your bank!
         </PlaidLink>
     )

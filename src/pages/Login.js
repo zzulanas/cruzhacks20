@@ -12,45 +12,53 @@ import { Form } from 'react-bootstrap'
 export default class Login extends Component {
         render() {
             return (
-                // <Form>
-                //     <Form.Group controlId="formBasicEmail">
-                //     <Form.Label> Email address </Form.Label>
-                //     <Form.Control type="" placeholder="email@website.com" />
-                //     <Form.Text className="text-muted"></Form.Text>
-                //     </Form.Group>
-
-                //     <Form.Group controlId="formBasicPassword">
-                //         <Form.Label>Password</Form.Label>
-                //         <Form.Control type="password" placeholder="Password" />
-                //     </Form.Group>
-                    
-                //     <Button variant="primary" type="submit"> Submit </Button>
-                // </Form>
-                
-                //Container for the login screen
                 <Container> 
                     <Row>
-                        <Logo/>
+                        <a href="/"><Logo/></a>
                     </Row>
                     <Row>
-                        <Col> Email </Col>
-                    </Row>
-                    
-                    <Row>
-                        <Email/>
+                        <Col style={{textAlign:"center"}}></Col>
+                        <Col style={{textAlign:"center"}}>Email</Col>
+                        <Col style={{textAlign:"center"}}></Col>
                     </Row>
                     
                     <Row>
-                        <Col> Password </Col>
+                        <Col style={{textAlign:"center"}}></Col>
+                        <Col style={{textAlign:"center"}}><Email/></Col>
+                        <Col style={{textAlign:"center"}}></Col>
+                    </Row>
+                    
+                    <Row>
+                        <Col style={{textAlign:"center"}}></Col>
+                        <Col style={{textAlign:"center"}}>Password</Col>
+                        <Col style={{textAlign:"center"}}></Col>
                     </Row> 
                     
                     <Row>
-                        <Password/>
+                        <Col style={{textAlign:"center"}}></Col>
+                        <Col style={{textAlign:"center"}}><Password/></Col>
+                        <Col style={{textAlign:"center"}}></Col>
                     </Row>
 
-                    <ButtonToolbar>
-                        <Button type="primary" size = "lg" >Login</Button>
+                    <Row>
+                        <ButtonToolbar>
+                            
+                            <Col style={{textAlign:"center"}}></Col>
+                            <Col style={{textAlign:"center"}}></Col>
+                            <Col style={{textAlign:"center"}}></Col>
+                            <Button  block variant="primary" size = "lg" style={{marginTop:"2%"}, {marginRight: "-266%"}}>Log In</Button>
+                        </ButtonToolbar>
+                    </Row>
+                    <br>
+                    </br>
+                    <Row>    
+                    <ButtonToolbar>   
+                            <Col style={{textAlign:"center"}}></Col>
+                            <Col style={{textAlign:"center"}}></Col>
+                            <Col style={{textAlign:"center"}}></Col>                
+                            <Button  block variant="primary" size = "lg" style={{marginBottom:"7%"}, {marginRight: "-240%"}}>Sign Up</Button>
                     </ButtonToolbar>
+                    </Row>
                 </Container>
                    
             )
