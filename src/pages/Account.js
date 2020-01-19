@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Transaction from '../components/Transaction';
 import Organization from '../components/Organization';
+import Logo from '../svg/index 1.svg'
+import redcross from '../svg/redcross.jpg';
 import {Container, Row, Col} from 'react-bootstrap';
 export default class Account extends Component {
     
@@ -16,8 +18,8 @@ export default class Account extends Component {
                 </div>
                 <div id="right" style={{marginTop:"8%"}}>
                 <h2 style={{fontWeight:800, textAlign:"center"}} >Your Organizations</h2>
-                    <Organization/>
-                    <Organization/>
+                    <Organization image={Logo} name="The Nature Conservancy"/>
+                    <Organization image={redcross} name="American Red Cross"/>
                 </div>
             </div>
         )

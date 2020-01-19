@@ -10,8 +10,11 @@ export default class Organization extends Component {
               <Container>
                 <Row>
                   <Col>
-                  <img src={this.props.image}/>
-                  <h2>{this.props.name}</h2>
+                  <img style={{maxWidth:"40%"}}src={this.props.image}/>
+                  </Col>
+                  <Col>
+                  <h2><b>{this.props.name}</b></h2>
+                  <h3>Total Contributions: $14.33</h3>
                   </Col>
                 </Row>
               </Container>
