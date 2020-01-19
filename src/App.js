@@ -4,6 +4,7 @@ import Signup from './pages/Signup';
 import Charities from './pages/Charities';
 import Account from './pages/Account';
 import Login from './pages/Login';
+import Header from './components/Header';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 import "shards-ui/dist/css/shards.min.css"
@@ -14,6 +15,7 @@ function App() {
       <div>
         <Route exact={true} path='/' render={() => (
               <div className="App">
+                <Header/>
                 <Home />
               </div>
             )}/>
@@ -24,6 +26,7 @@ function App() {
             )}/>
         <Route exact={true} path='/charities' render={() => (
               <div className="Charities">
+                <Header/>
                 <Charities />
               </div>
             )}/>
