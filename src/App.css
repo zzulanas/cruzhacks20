@@ -25,14 +25,45 @@
 }
 
 .Account{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
   background:  linear-gradient(241.09deg, rgba(44, 120, 108, 0.195) 18.09%, rgba(248, 180, 0, 0.5) 83.04%), #FBF9F1;
-  
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
 }
 
 .small{
   width: 87%;
 }
 
+.logo{
+  width:60%;
+}
+
 .homebutton{
   margin-top: 20%;
+}
+
+.bottomBorder{
+  border-bottom: 5px solid #48C9B0;
+}
+
+@media (min-width: 768px){
+  #left {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    width: 30%;
+    overflow-y: scroll; 
+  }
+  
+  #right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+    width: 70%;
+  }
 }
