@@ -23,7 +23,7 @@ function App() {
               </div>
             )}/>
         <Route exact={true} path='/charities' render={() => (
-              <div className="App">
+              <div className="Charities">
                 <Charities />
               </div>
             )}/>

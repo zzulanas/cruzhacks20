@@ -30,3 +30,7 @@
   color: #61dafb;
 }
 
+.Charities {
+  background: linear-gradient(180deg, #48C9B0 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FBF0CA 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FBF9F1 0%, rgba(251, 249, 241, 0) 100%);
+}
+
