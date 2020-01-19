@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Header from '../components/Navbar';
 import logo from '../svg/C4coin.svg'
 
 
@@ -7,7 +6,6 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <Header/>
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
