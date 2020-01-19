@@ -9,9 +9,9 @@ export default class Header extends Component {
                 <Navbar sticky="top">
                     <Navbar.Brand href="/"><Logo/></Navbar.Brand>
                     <Nav className="ml-auto">
-                        <Nav.Link href="#deets">About</Nav.Link>
-                        <Nav.Link href="#deets">Charities</Nav.Link>
-                        <Nav.Link href="#deets">Account</Nav.Link>
+                        <Nav.Link href="about">About</Nav.Link>
+                        <Nav.Link href="charities">Charities</Nav.Link>
+                        <Nav.Link href="account">Account</Nav.Link>
                     </Nav>
                 </Navbar>
                 </>
