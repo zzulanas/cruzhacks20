@@ -24,22 +24,6 @@
   /* line-height: 65px; */
 }
 
-.nav-item{
-  margin: 40px;
-  cursor: pointer;
-  text-decoration: none;
-  align-items: right;
-}
-
-.nav-items{
-  justify-content: right;
-  margin-left: 25%;
-}
-
-.nav-item:hover{
-  text-decoration: none;
-}
-
-.logo{
-  width: 70%;
+.small{
+  width: 87%;
 }

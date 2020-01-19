@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import coin from '../svg/coinz.svg';
-import hands from '../svg/handz.svg';
-import credit_card from '../svg/credit-card.png';
+import home from '../svg/home_design.svg';
 import { Container, Col, Row } from 'shards-react';
 
 export default class Home extends Component {
@@ -9,11 +7,15 @@ export default class Home extends Component {
         return (
             <div>
                 <Container>
-                    <Row>
+
+                    <Row >
                         <Col>
-                        1 of 2
+                            <img src={home} alt="hands holding coins" className="small"/>
                         </Col>
                         <Col>
+                        <h1> <b>Change4Change</b> </h1>
+                        <h2>Be the change you want to see in the world!</h2>
+                        <h2>...or you could give a little bit instead</h2>
                         </Col>
                     </Row>
                 </Container>
