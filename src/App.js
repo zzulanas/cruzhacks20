@@ -18,11 +18,6 @@ function App() {
                 <Home />
               </div>
             )}/>
-        <Route exact={true} path='/signup' render={() => (
-              <div className="App">
-                <Signup />
-              </div>
-            )}/>
         <Route exact={true} path='/charities' render={() => (
               <div className="Charities">
                 <Header/>
@@ -30,12 +25,13 @@ function App() {
               </div>
             )}/>
         <Route exact={true} path='/account' render={() => (
-              <div className="App">
+              <div className="Account">
+                <Header/>
                 <Account />
               </div>
             )}/>
         <Route exact={true} path='/login' render={() => (
-              <div className="App">
+              <div className="Login">
                 <Login />
               </div>
             )}/>

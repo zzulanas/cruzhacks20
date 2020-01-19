@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import home from '../svg/home_design.svg';
-import { Container, Col, Row } from 'shards-react';
+import { Container, Col, Row, Button } from 'react-bootstrap';
+
 
 export default class Home extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class Home extends Component {
                         <h1> <b>Change4Change</b> </h1>
                         <h2>Be the change you want to see in the world!</h2>
                         <h2>...or you could give a little bit instead</h2>
+                        <Button block variant = "primary" className="homebutton">Learn More!</Button>
                         </Col>
                     </Row>
                 </Container>
