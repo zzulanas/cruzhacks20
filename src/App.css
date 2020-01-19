@@ -2,6 +2,14 @@
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
+  background: linear-gradient(180deg, #FAEBB8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FBF0CA 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(121.77deg, #FBF9F1 4.53%, rgba(251, 249, 241, 0) 100.67%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
 }
 
 .App-logo {
@@ -15,16 +23,6 @@
   }
 }
 
-.App-header {
-  background: linear-gradient(180deg, #FAEBB8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FBF0CA 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(121.77deg, #FBF9F1 4.53%, rgba(251, 249, 241, 0) 100.67%);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
-}
 
 .App-link {
   color: #61dafb;
@@ -32,5 +30,33 @@
 
 .Charities {
   background: linear-gradient(180deg, #48C9B0 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FBF0CA 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FBF9F1 0%, rgba(251, 249, 241, 0) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 40px;
+  top:20px;
+  color: rgb(0,0,0);
+  line-height: 65px;
 }
 
+.navbar{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: right;
+}
+
+.nav-item{
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-item:hover{
+  text-decoration: none;
+}

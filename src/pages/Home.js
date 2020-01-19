@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import Searchbar from '../components/Searchbar';
+import Header from '../components/Header';
 import logo from '../svg/C4coin.svg'
+
 
 export default class Home extends Component {
     render() {
         return (
             <div>
+                <Header/>
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
