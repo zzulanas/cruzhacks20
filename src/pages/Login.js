@@ -28,9 +28,10 @@ export default class Login extends Component {
                 // </Form>
                 
                 //Container for the login screen
+               
                 <Container> 
                     <Row>
-                        <Logo/>
+                        <a href="/"><Logo/></a>
                     </Row>
                     <Row>
                         <Col> Email </Col>
@@ -48,9 +49,15 @@ export default class Login extends Component {
                         <Password/>
                     </Row>
 
-                    <ButtonToolbar>
-                        <Button type="primary" size = "lg" >Login</Button>
-                    </ButtonToolbar>
+                    <Row>
+                        <ButtonToolbar>
+                            <Button  variant="primary" size = "lg" style={{marginTop:"2%"}}>Log In</Button>
+                        </ButtonToolbar>
+                    </Row>
+                    
+                    <Row>                        
+                            <Button  variant="primary" size = "lg" style={{marginTop:"2%"}}>Sign Up</Button>
+                    </Row>
                 </Container>
                    
             )
