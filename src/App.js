@@ -9,6 +9,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 
 function App() {
+  const numbers = [['Amazon',0.89],['Whole Foods',0.35],['Target',0.22],['Barnes & Noble',0.98],['AirBnB',0.14]]
   return (
     <BrowserRouter>
       <div>
@@ -27,7 +28,7 @@ function App() {
         <Route exact={true} path='/account' render={() => (
               <div className="Account">
                 <Header account={true}/>
-                <Account />
+                <Account numbers={numbers} />
               </div>
             )}/>
         <Route exact={true} path='/login' render={() => (

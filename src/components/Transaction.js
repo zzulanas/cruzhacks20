@@ -15,7 +15,7 @@ export default class Transaction extends Component {
                   <br/>
                   </Col>
                   <Col>
-                  <font size="+4">{this.props.amount}</font>
+                  <font size="+4">${this.props.amount}</font>
                   </Col>
                 </Row>
               </Container>
