@@ -22,6 +22,10 @@ export default class Home extends Component {
                         Learn React
                     </a>
                     </header>
+                    <div className="test-rectangle">
+
+                        test
+                    </div>
             </div>
         )
     }
